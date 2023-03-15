@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <title>Mācos JavaScript</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Mācos zīmēt ar JavaScript</h1>    
+    <canvas id="myCanvas" width="300" height="300"
+            style="background-color: lightgrey;"></canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.fillRect( 10, 10, 20, 20 );
+    </script>
+</body>
+</html>
